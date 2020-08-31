@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive , sans-serif;
+}
+
+body {
+    background: rgb(245, 243, 241);
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(245, 234, 234);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*navigation*/
+.navigation {
+    width: 30%;
+    height: 100%;
+}
+
+.nav-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list li {
+
+    list-style-type: none;
+}
+
+.nav-list li a {
+    font-size: 1.3rem;
+    color: rgb(77, 74, 74);
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    color: rgb(165, 165, 163);
+}
+
+.up {
+    display: none;
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    padding: 0.6rem;
+    background: rgb(70, 144, 246);
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    box-shadow: inset -6px -5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*end navigation*/
+/*SECTION ONE */
+.one {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+.left {
+    width: 25%;
+    height: 100%;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+}
+
+.centre {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size:3.5rem ;
+}
+
+.myName {
+    color: rgb(206, 58, 32);
+}
+
+.contenido p {
+    text-transform: capitalize;
+    font-size:1.5rem ;
+    color: rgb(82, 81, 81);
+}
+
+.right {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+/* TWO SECTION ABOUT*/
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.about-left,
+.about-right {
+    width: 50%;
+    height: 100%;
+}
+
+.about-one,
+.about-two,
+.about-three,
+.about-four {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-three img,
+.about-two img {
+    padding-top: 2%;
+    width: auto;
+    height: 98%;
+}
+
+.info {
+    background-color: rgb(241, 232, 232);
+    width: 80%;
+    text-align: center;
+    border: rgb(11, 2, 51) 2px solid;
+    padding: 4%;
+    box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+}
+
+/*THREE SECTION SKILLS*/
+.skills {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.skills-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-info{
+box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+padding: 2rem;
+border: 2px solid black;
+width: 90%;
+height: 90%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+
+.skills-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+.skills-img{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.skills-img img{
+    width: 9rem;
+    height: auto;
+ 
+}
+/*Four Section Contact*/
+.contact{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.contact-right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    text-align: center;
+    padding: 1rem;
+    width: 90%;
+}
+.contact-left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: rgb(200, 197, 209);
+    text-align: center;
+    padding: 1.5rem;
+    border: 1px solid black;
+    box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+}
+form label{
+    font-size: 1.5rem;
+}
+
+input, textarea{
+    display: block;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 90%;
+    
+}
+.send{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    color: #000000;
+    background: none;
+    box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.30);
+}
+.send:hover{
+    color: #ffffff;
+    background: #3d25a7;
+    
+}
+h2{
+    padding: 1rem 0 ;
+    text-transform: capitalize;
+}
+p , button{
+    font-size: 1.2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background: rgb(219, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    padding: 0 0.5rem;
+    font-size:1.2rem ;
+}
