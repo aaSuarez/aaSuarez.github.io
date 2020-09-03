@@ -111,6 +111,11 @@ h1 {
 
 .myName {
     color: rgb(206, 58, 32);
+    cursor: pointer;
+}
+.myName:hover{
+    color: rgb(34, 66, 110);
+
 }
 
 .contenido p {

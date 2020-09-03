@@ -60,7 +60,7 @@
     align-items: flex-start;
 }
 .right img {
-    width: 10rem;
+    width: 13rem;
 }
 .about-two,.about-three{
 display: none;
@@ -74,10 +74,15 @@ display: none;
 }
 .about-left , .about-right{
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
+}
+.info{
+    text-align: center;
+    padding: 2.5rem;
 }
 .skills{
     width: 100%;
