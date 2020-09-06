@@ -1,4 +1,4 @@
-@media (max-width: 900px){
+@media (max-width: 1035px){
 
     h1 {
         font-size: 2.2rem;
@@ -19,6 +19,7 @@
     }
     .info{
         padding: 0.5rem;
+        overflow: auto;
     }
     .about{
         height: 100vh;
@@ -29,6 +30,10 @@
     }
     .skills{
         height: 100vh;
+        
+    }
+    .skills-info{
+        padding-top: 5rem;
     }
     .skills-right{
         display: none;
@@ -38,6 +43,7 @@
         width: 100%;
         height: 90%;
     }
+    
 }
 @media (max-width: 785px){
 
